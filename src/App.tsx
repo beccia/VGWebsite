@@ -2,6 +2,7 @@ import React from 'react';
 import {Switch, Route, Link as RouterLink} from "react-router-dom";
 import NavBar from "./components/NavBar"
 import './App.css';
+import HomePage from "./pages/home/HomePage";
 
 function App() {
   return (
