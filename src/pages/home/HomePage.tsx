@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import Header from '../Header'
 import { SectionSelectImage } from '../../components/SectionSelectImage';
 
 export default function HomePage() {
         return (
             <div className="article">
                 <h1 className="header">
-                <Header text="Home" />
+                 <div>
+                     Home
+                 </div>
                 </h1>
                 <div className="article-main-body">
                     <div className="section-img-container">
